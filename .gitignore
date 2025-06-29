@@ -46,11 +46,9 @@ jspm_packages/
 # dotenv environment variables file
 .env
 
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
+# Uploaded files (consider using external storage in production)
+public/uploads/*
+!public/uploads/.gitkeep
 
 # OS generated files
 .DS_Store
