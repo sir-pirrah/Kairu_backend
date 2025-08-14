@@ -47,16 +47,15 @@ router.get('/', getAllProducts);
 // GET /api/products/search - Search products (must be before :id route)
 router.get('/search', searchProducts);
 
-// GET /api/products/:id - Get a single product by ID
 router.get('/:id', getProductById);
 
-// POST /api/products - Create a new product
+
 router.post('/', createProduct);
 
-// PUT /api/products/:id - Update a product
+
 router.put('/:id', updateProduct);
 
-// DELETE /api/products/:id - Delete a product
+
 router.delete('/:id', deleteProduct);
 
 module.exports = router; 
