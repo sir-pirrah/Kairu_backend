@@ -46,7 +46,7 @@ jspm_packages/
 # dotenv environment variables file
 .env
 
-# Uploaded files (consider using external storage in production)
+# Uploaded files 
 public/uploads/*
 !public/uploads/.gitkeep
 
