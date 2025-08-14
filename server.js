@@ -19,7 +19,7 @@ const corsOptions = {
     'http://127.0.0.1:4200', 
     'http://127.0.0.1:35935',
     // Add your Vercel frontend URL here
-    'https://kk20k.vercel.app', // Replace with your actual Vercel URL
+    'https://kk20k.vercel.app', 
     'https://*.vercel.app' // Allow all Vercel subdomains
   ],
   credentials: true,
