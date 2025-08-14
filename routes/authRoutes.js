@@ -27,8 +27,8 @@ router.post('/login', async (req, res) => {
       });
     }
 
-    // For simplicity, we're using plain text comparison
-    // In production, you should hash the password
+    
+   
     if (password !== adminPassword) {
       return res.status(401).json({ 
         message: 'Invalid credentials' 
