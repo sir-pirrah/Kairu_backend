@@ -2,55 +2,55 @@
   "products": [
     {
       "id": "1",
-      "name": "Leather Jacket",
-      "description": "Premium leather jacket with classic design",
-      "price": 8000,
-      "image": "http://localhost:3000/uploads/image-1751192338148-295084960.ico",
+      "name": "Organic Fresh Tomatoes",
+      "description": "Vine-ripened, juicy tomatoes grown without pesticides. Perfect for salads and sauces.",
+      "price": 180,
+      "image": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "images": [
-        "/assets/products/leather-jacket.jpg"
+        "/assets/products/tomatoes.jpg"
       ],
-      "category": "Fashion",
-      "subcategory": "Men's Clothing",
-      "brand": "Kairu",
+      "category": "Fresh Produce",
+      "subcategory": "Vegetables",
+      "brand": "Kairu Farms",
       "tags": [
-        "leather",
-        "jacket",
-        "fashion"
+        "tomatoes",
+        "organic",
+        "vegetables"
       ],
-      "rating": 5,
-      "reviewCount": 120,
-      "stock": 0,
+      "rating": 4.9,
+      "reviewCount": 124,
+      "stock": 150,
       "isNew": false,
       "isFeatured": true,
       "isTopPick": true,
       "badge": "",
       "createdAt": "2024-01-01T00:00:00.000Z",
       "updatedAt": "2025-06-29T10:19:08.377Z",
-      "originalPrice": 10,
+      "originalPrice": 250,
       "isFlashSale": false,
       "flashSaleEndTime": ""
     },
     {
       "id": "2",
-      "name": "Smart Watch",
-      "description": "Advanced smartwatch with health monitoring",
-      "price": "4999",
-      "originalPrice": "7999",
-      "image": "/assets/images/smartwatch.jpg",
+      "name": "Fresh Farm Eggs (Tray of 30)",
+      "description": "Free-range, organic eggs from happy hens. Rich yolk and excellent flavor.",
+      "price": 450,
+      "originalPrice": 550,
+      "image": "/assets/images/eggs.jpg",
       "images": [
-        "/assets/images/smartwatch.jpg"
+        "/assets/images/eggs.jpg"
       ],
-      "category": "Fashion",
-      "subcategory": "Watches",
-      "brand": "Kairo",
+      "category": "Dairy & Eggs",
+      "subcategory": "Eggs",
+      "brand": "Kairu Farms",
       "tags": [
-        "smartwatch",
-        "fitness",
-        "technology"
+        "eggs",
+        "free-range",
+        "organic"
       ],
-      "rating": 4,
-      "reviewCount": 80,
-      "stock": 25,
+      "rating": 4.8,
+      "reviewCount": 92,
+      "stock": 200,
       "isNew": true,
       "isFeatured": true,
       "isTopPick": true,
@@ -62,25 +62,25 @@
     },
     {
       "id": "3",
-      "name": "Bluetooth Speaker",
-      "description": "Portable bluetooth speaker with amazing sound",
-      "price": "1999",
-      "originalPrice": "2999",
-      "image": "/assets/images/speaker.jpg",
+      "name": "Honey - Pure Raw (500g)",
+      "description": "Unfiltered, raw honey sourced from local beekeepers. Rich in antioxidants.",
+      "price": 850,
+      "originalPrice": 1200,
+      "image": "/assets/images/honey.jpg",
       "images": [
-        "/assets/images/speaker.jpg"
+        "/assets/images/honey.jpg"
       ],
-      "category": "Electronics",
-      "subcategory": "Audio",
-      "brand": "Kairo",
+      "category": "Pantry Staples",
+      "subcategory": "Sweeteners",
+      "brand": "Kairu Farms",
       "tags": [
-        "speaker",
-        "bluetooth",
-        "audio"
+        "honey",
+        "raw",
+        "organic"
       ],
-      "rating": 4,
-      "reviewCount": 60,
-      "stock": 30,
+      "rating": 4.9,
+      "reviewCount": 67,
+      "stock": 85,
       "isNew": false,
       "isFeatured": false,
       "isTopPick": true,
@@ -92,23 +92,23 @@
     },
     {
       "id": "4",
-      "name": "Wireless Headphones",
-      "description": "High-quality wireless headphones with noise cancellation",
-      "price": "2999",
-      "originalPrice": "4999",
-      "image": "/assets/images/headphone.jpg",
+      "name": "Organic Kale Bunch",
+      "description": "Fresh, crisp kale leaves – perfect for smoothies, salads, and sautés.",
+      "price": 120,
+      "originalPrice": 180,
+      "image": "/assets/images/kale.jpg",
       "images": [],
-      "category": "Electronics",
-      "subcategory": "Audio",
-      "brand": "Kairo",
+      "category": "Fresh Produce",
+      "subcategory": "Leafy Greens",
+      "brand": "Kairu Farms",
       "tags": [
-        "headphones",
-        "wireless",
-        "audio"
+        "kale",
+        "organic",
+        "greens"
       ],
-      "rating": 5,
-      "reviewCount": 150,
-      "stock": 20,
+      "rating": 4.7,
+      "reviewCount": 45,
+      "stock": 300,
       "isNew": true,
       "isFeatured": false,
       "isTopPick": false,
@@ -120,25 +120,25 @@
     },
     {
       "id": "5",
-      "name": "Mechanical Keyboard",
-      "description": "Premium mechanical keyboard with RGB backlighting",
-      "price": "3999",
-      "originalPrice": "5999",
-      "image": "/assets/images/keyboard.jpg",
+      "name": "Whole Grain Maize Meal (2kg)",
+      "description": "Stone-ground, non-GMO maize meal. Ideal for ugali, porridge, and baking.",
+      "price": 320,
+      "originalPrice": 400,
+      "image": "/assets/images/maize-meal.jpg",
       "images": [
-        "/assets/images/keyboard.jpg"
+        "/assets/images/maize-meal.jpg"
       ],
-      "category": "Electronics",
-      "subcategory": "Gaming",
-      "brand": "Kairo",
+      "category": "Grains & Cereals",
+      "subcategory": "Maize",
+      "brand": "Kairu Farms",
       "tags": [
-        "keyboard",
-        "mechanical",
-        "gaming"
+        "maize",
+        "ugali",
+        "whole grain"
       ],
-      "rating": 4.5,
-      "reviewCount": 95,
-      "stock": 18,
+      "rating": 4.6,
+      "reviewCount": 102,
+      "stock": 500,
       "isNew": true,
       "isFeatured": true,
       "isTopPick": true,
@@ -150,25 +150,25 @@
     },
     {
       "id": "6",
-      "name": "Cotton Polo Shirt",
-      "description": "Premium cotton polo shirt with a classic fit.",
-      "price": "349",
-      "originalPrice": "400",
-      "image": "https://images.unsplash.com/photo-1578932750355-5eb30ece487a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "name": "Avocado - Hass (4 pcs)",
+      "description": "Creamy, nutrient-rich Hass avocados – ready to eat.",
+      "price": 280,
+      "originalPrice": 400,
+      "image": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "images": [
-        "https://images.unsplash.com/photo-1578932750355-5eb30ece487a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "category": "Fashion",
-      "subcategory": "Men's Clothing",
-      "brand": "Kairo",
+      "category": "Fresh Produce",
+      "subcategory": "Fruits",
+      "brand": "Kairu Farms",
       "tags": [
-        "polo",
-        "casual",
-        "shirt"
+        "avocado",
+        "hass",
+        "fruit"
       ],
-      "rating": 4.3,
-      "reviewCount": 76,
-      "stock": 40,
+      "rating": 4.9,
+      "reviewCount": 210,
+      "stock": 120,
       "isNew": false,
       "isFeatured": false,
       "badge": "sale",
@@ -177,25 +177,25 @@
     },
     {
       "id": "7",
-      "name": "Running Shoes",
-      "description": "Lightweight running shoes with cushioned soles.",
-      "price": "1000",
-      "originalPrice": "1099",
-      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "name": "Fresh Camel Milk (1 liter)",
+      "description": "Nutritious, low-fat camel milk – rich in vitamins and minerals.",
+      "price": 350,
+      "originalPrice": 450,
+      "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "images": [
-        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1563636619-e9143da7973b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "category": "Footwear",
-      "subcategory": "Sports Shoes",
-      "brand": "Kairo",
+      "category": "Dairy & Eggs",
+      "subcategory": "Milk",
+      "brand": "Kairu Farms",
       "tags": [
-        "shoes",
-        "running",
-        "sports"
+        "camel milk",
+        "fresh",
+        "dairy"
       ],
-      "rating": 4.7,
-      "reviewCount": 112,
-      "stock": 35,
+      "rating": 4.8,
+      "reviewCount": 78,
+      "stock": 90,
       "isNew": true,
       "isFeatured": true,
       "badge": "new",
@@ -204,24 +204,24 @@
     },
     {
       "id": "8",
-      "name": "Bluetooth Speaker",
-      "description": "Portable Bluetooth speaker with 20-hour battery life.",
-      "price": "500",
-      "image": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "name": "Irish Potatoes (5kg bag)",
+      "description": "High-quality potatoes – great for boiling, roasting, or mashing.",
+      "price": 600,
+      "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "images": [
-        "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1518977676601-b53f82aba655?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "category": "Electronics",
-      "subcategory": "Audio",
-      "brand": "Kairo",
+      "category": "Fresh Produce",
+      "subcategory": "Vegetables",
+      "brand": "Kairu Farms",
       "tags": [
-        "speaker",
-        "audio",
-        "portable"
+        "potatoes",
+        "vegetables",
+        "local"
       ],
       "rating": 4.5,
-      "reviewCount": 89,
-      "stock": 28,
+      "reviewCount": 134,
+      "stock": 200,
       "isNew": false,
       "isFeatured": false,
       "badge": null,
@@ -230,24 +230,24 @@
     },
     {
       "id": "9",
-      "name": "Organic Coffee Beans",
-      "description": "Premium organic coffee beans, 1kg pack.",
-      "price": "250",
-      "image": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "name": "Organic Coffee Beans (1kg)",
+      "description": "Single-origin, medium roast Arabica beans – rich and aromatic.",
+      "price": 1250,
+      "image": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "images": [
-        "https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "category": "Groceries",
-      "subcategory": "Beverages",
-      "brand": "Kairo",
+      "category": "Beverages",
+      "subcategory": "Coffee",
+      "brand": "Kairu Farms",
       "tags": [
         "coffee",
         "organic",
-        "beverage"
+        "beans"
       ],
-      "rating": 4.8,
-      "reviewCount": 203,
-      "stock": 100,
+      "rating": 4.9,
+      "reviewCount": 245,
+      "stock": 60,
       "isNew": false,
       "isFeatured": true,
       "badge": null,
@@ -256,25 +256,25 @@
     },
     {
       "id": "10",
-      "name": "Smart LED TV",
-      "description": "55-inch 4K Smart LED TV with HDR.",
-      "price": "54999",
-      "originalPrice": "64999",
-      "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "name": "Free-Range Chicken (Whole)",
+      "description": "Farm-raised, hormone-free whole chicken. Ideal for roasting or stewing.",
+      "price": 1200,
+      "originalPrice": 1500,
+      "image": "https://images.unsplash.com/photo-1587593810166-a84920ea8f33?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "images": [
-        "https://images.unsplash.com/photo-1593784991095-a205069470b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1587593810166-a84920ea8f33?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "category": "Home Appliances",
-      "subcategory": "TV & Video",
-      "brand": "Kairo",
+      "category": "Meat & Poultry",
+      "subcategory": "Chicken",
+      "brand": "Kairu Farms",
       "tags": [
-        "tv",
-        "smart",
-        "entertainment"
+        "chicken",
+        "free-range",
+        "meat"
       ],
-      "rating": 4.9,
-      "reviewCount": 67,
-      "stock": 12,
+      "rating": 4.8,
+      "reviewCount": 56,
+      "stock": 30,
       "isNew": true,
       "isFeatured": true,
       "badge": "new",
@@ -283,23 +283,24 @@
     },
     {
       "id": "11",
-      "name": "Yoga Mat",
-      "description": "Non-slip yoga mat with carrying strap.",
-      "price": "1999",
-      "image": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "name": "Organic Carrots (1kg)",
+      "description": "Sweet, crunchy organic carrots – perfect for snacking or cooking.",
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "images": [
-        "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "category": "Fitness",
-      "brand": "Kairo",
+      "category": "Fresh Produce",
+      "subcategory": "Vegetables",
+      "brand": "Kairu Farms",
       "tags": [
-        "yoga",
-        "fitness",
-        "exercise"
+        "carrots",
+        "organic",
+        "vegetables"
       ],
-      "rating": 4.6,
-      "reviewCount": 145,
-      "stock": 50,
+      "rating": 4.7,
+      "reviewCount": 88,
+      "stock": 250,
       "isNew": false,
       "isFeatured": false,
       "badge": null,
@@ -308,24 +309,25 @@
     },
     {
       "id": "12",
-      "name": "Wireless Earbuds",
-      "description": "True wireless earbuds with charging case.",
-      "price": "7999",
-      "originalPrice": "9999",
-      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "name": "Brown Rice (2kg)",
+      "description": "Whole grain brown rice – high fiber, no preservatives.",
+      "price": 480,
+      "originalPrice": 600,
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e8ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "images": [
-        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1586201375761-83865001e8ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "category": "Electronics",
-      "brand": "Kairo",
+      "category": "Grains & Cereals",
+      "subcategory": "Rice",
+      "brand": "Kairu Farms",
       "tags": [
-        "earbuds",
-        "wireless",
-        "audio"
+        "rice",
+        "brown rice",
+        "whole grain"
       ],
-      "rating": 4.4,
-      "reviewCount": 178,
-      "stock": 42,
+      "rating": 4.6,
+      "reviewCount": 112,
+      "stock": 180,
       "isNew": true,
       "isFeatured": true,
       "badge": "new",
@@ -334,23 +336,24 @@
     },
     {
       "id": "13",
-      "name": "Stainless Steel Water Bottle",
-      "description": "Insulated stainless steel water bottle, 1L capacity.",
-      "price": "1499",
-      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "name": "Stainless Steel Water Bottle (1L)",
+      "description": "Insulated, eco-friendly bottle – keeps drinks cold/hot for hours.",
+      "price": 899,
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "images": [
-        "https://images.unsplash.com/photo-1602143407151-7111542de6e8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1602143407151-7111542de6e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "category": "Accessories",
-      "brand": "Kairo",
+      "category": "Farm Accessories",
+      "subcategory": "Water Bottles",
+      "brand": "Kairu Farms",
       "tags": [
         "bottle",
-        "water",
-        "eco-friendly"
+        "eco-friendly",
+        "accessory"
       ],
-      "rating": 4.7,
-      "reviewCount": 231,
-      "stock": 75,
+      "rating": 4.8,
+      "reviewCount": 203,
+      "stock": 120,
       "isNew": false,
       "isFeatured": false,
       "badge": null,
@@ -359,24 +362,25 @@
     },
     {
       "id": "14",
-      "name": "Laptop Backpack",
-      "description": "Durable laptop backpack with USB charging port.",
-      "price": "3999",
-      "originalPrice": "4999",
-      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "name": "Harvest Basket (Handwoven)",
+      "description": "Traditional sisal basket – perfect for collecting produce or as a gift.",
+      "price": 650,
+      "originalPrice": 850,
+      "image": "https://images.unsplash.com/photo-1595433707802-bc6e5f7da12b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "images": [
-        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1595433707802-bc6e5f7da12b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "category": "Accessories",
-      "brand": "Kairo",
+      "category": "Farm Accessories",
+      "subcategory": "Baskets",
+      "brand": "Kairu Farms",
       "tags": [
-        "backpack",
-        "laptop",
-        "travel"
+        "basket",
+        "handwoven",
+        "harvest"
       ],
-      "rating": 4.6,
-      "reviewCount": 94,
-      "stock": 38,
+      "rating": 4.7,
+      "reviewCount": 45,
+      "stock": 75,
       "isNew": true,
       "isFeatured": true,
       "badge": "new",
@@ -385,23 +389,24 @@
     },
     {
       "id": "15",
-      "name": "Air Fryer",
-      "description": "Digital air fryer with multiple cooking functions.",
-      "price": "8999",
-      "image": "https://images.unsplash.com/photo-1615873968403-89e068629265?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "name": "Organic Wheat Flour (2kg)",
+      "description": "Stone-ground, whole wheat flour – perfect for chapatis and bread.",
+      "price": 380,
+      "image": "https://images.unsplash.com/photo-1594406186336-aa0c92f8b864?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "images": [
-        "https://images.unsplash.com/photo-1615873968403-89e068629265?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1594406186336-aa0c92f8b864?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "category": "Home Appliances",
-      "brand": "Kairo",
+      "category": "Grains & Cereals",
+      "subcategory": "Flour",
+      "brand": "Kairu Farms",
       "tags": [
-        "air fryer",
-        "kitchen",
-        "cooking"
+        "wheat flour",
+        "organic",
+        "baking"
       ],
-      "rating": 4.8,
-      "reviewCount": 127,
-      "stock": 22,
+      "rating": 4.7,
+      "reviewCount": 89,
+      "stock": 220,
       "isNew": true,
       "isFeatured": true,
       "badge": "new",
@@ -410,24 +415,25 @@
     },
     {
       "id": "16",
-      "name": "Men's Dress Shirt",
-      "description": "Formal dress shirt with slim fit.",
-      "price": "4499",
-      "originalPrice": "5499",
-      "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "name": "Fresh Coriander Bunch",
+      "description": "Aromatic fresh coriander – essential for Kenyan dishes.",
+      "price": 40,
+      "originalPrice": 60,
+      "image": "https://images.unsplash.com/photo-1588978229955-b2852eab21ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "images": [
-        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1588978229955-b2852eab21ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "category": "Clothing",
-      "brand": "Kairo",
+      "category": "Fresh Produce",
+      "subcategory": "Herbs",
+      "brand": "Kairu Farms",
       "tags": [
-        "shirt",
-        "formal",
-        "dress"
+        "coriander",
+        "herbs",
+        "fresh"
       ],
-      "rating": 4.3,
-      "reviewCount": 68,
-      "stock": 45,
+      "rating": 4.9,
+      "reviewCount": 312,
+      "stock": 400,
       "isNew": false,
       "isFeatured": false,
       "badge": "sale",
@@ -436,52 +442,54 @@
     },
     {
       "id": "17",
-      "name": "Gaming Mouse",
-      "description": "High-precision gaming mouse with RGB lighting.",
-      "price": 5000,
-      "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "name": "Garden Hoe (Heavy Duty)",
+      "description": "Durable steel hoe for weeding and tilling small farms.",
+      "price": 950,
+      "image": "https://images.unsplash.com/photo-1585974753983-0b530c2c6bda?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "images": [
-        "https://images.unsplash.com/photo-1527814050087-3793815479db?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1585974753983-0b530c2c6bda?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "category": "Electronics",
-      "brand": "Kairo",
+      "category": "Farm Tools",
+      "subcategory": "Hand Tools",
+      "brand": "Kairu Farms",
       "tags": [
-        "mouse",
-        "gaming",
-        "accessories"
+        "hoe",
+        "gardening",
+        "tool"
       ],
-      "rating": 4.7,
-      "reviewCount": 112,
-      "stock": 30,
+      "rating": 4.6,
+      "reviewCount": 47,
+      "stock": 35,
       "isNew": true,
       "isFeatured": true,
       "badge": "new",
       "createdAt": "2024-01-01T00:00:00.000Z",
       "updatedAt": "2025-06-28T10:33:38.901Z",
-      "originalPrice": "",
-      "subcategory": "Accessories",
+      "originalPrice": 1200,
+      "subcategory": "Hand Tools",
       "isTopPick": false,
       "isFlashSale": false
     },
     {
       "id": "18",
-      "name": "Organic Honey",
-      "description": "Pure organic honey, 500g jar.",
-      "price": "1299",
-      "image": "https://images.unsplash.com/photo-1551504735-1a4ec50f7c1a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "name": "Pure Shea Butter (500g)",
+      "description": "Unrefined, organic shea butter – great for skin and hair.",
+      "price": 750,
+      "image": "https://images.unsplash.com/photo-1620916400486-4f0b1d5da6f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "images": [
-        "https://images.unsplash.com/photo-1551504735-1a4ec50f7c1a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1620916400486-4f0b1d5da6f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "category": "Groceries",
-      "brand": "Kairo",
+      "category": "Natural Products",
+      "subcategory": "Body Care",
+      "brand": "Kairu Farms",
       "tags": [
-        "honey",
+        "shea butter",
         "organic",
-        "sweetener"
+        "natural"
       ],
       "rating": 4.9,
-      "reviewCount": 187,
-      "stock": 60,
+      "reviewCount": 134,
+      "stock": 80,
       "isNew": false,
       "isFeatured": false,
       "badge": null,
@@ -490,24 +498,25 @@
     },
     {
       "id": "19",
-      "name": "Blender",
-      "description": "High-speed blender with multiple attachments.",
-      "price": "6999",
-      "originalPrice": "8999",
-      "image": "https://images.unsplash.com/photo-1560343090-f0409e92791a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "name": "Green Capsicum (1kg)",
+      "description": "Crisp, sweet bell peppers – great for stir-fries and salads.",
+      "price": 220,
+      "originalPrice": 300,
+      "image": "https://images.unsplash.com/photo-1563565375003-640f7f9dd6fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "images": [
-        "https://images.unsplash.com/photo-1560343090-f0409e92791a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1563565375003-640f7f9dd6fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "category": "Home Appliances",
-      "brand": "Kairo",
+      "category": "Fresh Produce",
+      "subcategory": "Vegetables",
+      "brand": "Kairu Farms",
       "tags": [
-        "blender",
-        "kitchen",
-        "appliance"
+        "capsicum",
+        "bell peppers",
+        "fresh"
       ],
-      "rating": 4.5,
-      "reviewCount": 93,
-      "stock": 18,
+      "rating": 4.7,
+      "reviewCount": 99,
+      "stock": 140,
       "isNew": false,
       "isFeatured": true,
       "badge": "sale",
@@ -516,96 +525,96 @@
     },
     {
       "id": "20",
-      "name": "Fitness Tracker",
-      "description": "Waterproof fitness tracker with heart rate monito",
-      "price": "3499",
-      "image": "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "name": "Farmers' Straw Hat",
+      "description": "Wide-brimmed, breathable hat – UV protection for long days in the sun.",
+      "price": 450,
+      "image": "https://images.unsplash.com/photo-1563581957967-5c6c9e5c8d1c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "images": [
-        "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1563581957967-5c6c9e5c8d1c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ],
-      "category": "Electronics",
-      "brand": "Kairo",
+      "category": "Farm Accessories",
+      "subcategory": "Clothing",
+      "brand": "Kairu Farms",
       "tags": [
-        "fitness",
-        "tracker",
-        "wearable"
+        "hat",
+        "straw hat",
+        "sun protection"
       ],
-      "rating": 4.4,
-      "reviewCount": 156,
-      "stock": 27,
+      "rating": 4.8,
+      "reviewCount": 63,
+      "stock": 110,
       "isNew": true,
       "isFeatured": true,
       "badge": "new",
       "createdAt": "2024-01-01T00:00:00.000Z",
       "updatedAt": "2025-06-28T13:40:45.882Z",
-      "originalPrice": "",
-      "subcategory": "",
+      "originalPrice": 600,
+      "subcategory": "Clothing",
       "isTopPick": false,
       "isFlashSale": false
     },
     {
-      "name": "Laptop",
-      "description": "HP elite book",
-      "price": 20000,
-      "originalPrice": 15000,
-      "category": "Electronics",
-      "subcategory": "Laptops",
-      "brand": "Kairo",
-      "image": "https://images.unsplash.com/photo-1511385348-a52b4a160dc2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D",
+      "id": "21",
+      "name": "Fresh Pineapple (Whole)",
+      "description": "Sweet, juicy pineapple – ready to slice and serve.",
+      "price": 200,
+      "originalPrice": 250,
+      "category": "Fresh Produce",
+      "subcategory": "Fruits",
+      "brand": "Kairu Farms",
+      "image": "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "images": [],
-      "tags": [
-        "New"
-      ],
-      "stock": 10,
-      "rating": 4.6,
-      "reviewCount": 19,
+      "tags": ["pineapple", "fruit", "fresh"],
+      "stock": 95,
+      "rating": 4.9,
+      "reviewCount": 178,
       "isNew": false,
       "isFeatured": true,
       "isTopPick": true,
       "isFlashSale": false,
-      "badge": "new",
-      "id": "21",
+      "badge": "sale",
       "createdAt": "2025-06-28T10:38:47.962Z",
       "updatedAt": "2025-06-28T10:48:06.060Z"
     },
     {
-      "name": "Leather nott",
-      "description": "sdfdf fdgdf",
-      "price": 1234,
-      "originalPrice": "",
-      "category": "Electronics",
-      "subcategory": "Laptops",
-      "brand": "Kairo",
-      "image": "",
+      "id": "22",
+      "name": "Organic Lentils (1kg)",
+      "description": "Protein-rich brown lentils – quick to cook, no soaking needed.",
+      "price": 350,
+      "originalPrice": 450,
+      "category": "Pantry Staples",
+      "subcategory": "Legumes",
+      "brand": "Kairu Farms",
+      "image": "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       "images": [],
-      "tags": [],
-      "stock": 20,
-      "rating": 3,
-      "reviewCount": 100,
+      "tags": ["lentils", "organic", "legumes"],
+      "stock": 300,
+      "rating": 4.7,
+      "reviewCount": 88,
       "isNew": true,
       "isFeatured": false,
       "isTopPick": true,
       "isFlashSale": false,
       "flashSaleEndTime": "",
       "badge": "new",
-      "id": "22",
       "createdAt": "2025-06-28T19:38:08.055Z",
       "updatedAt": "2025-06-28T19:38:08.055Z"
     },
     {
-      "name": "Leather Jacket not",
-      "description": "hfvhj hjhkj",
-      "price": 1234,
-      "originalPrice": "",
-      "category": "Electronics",
-      "subcategory": "Laptops",
-      "brand": "Kairo",
-      "image": "/uploads/image-1751140475964-194536493.ico",
+      "id": "23",
+      "name": "Compost Bin (100L)",
+      "description": "Durable, aerated compost bin – turns kitchen waste into black gold.",
+      "price": 2500,
+      "originalPrice": 3200,
+      "category": "Farm Tools",
+      "subcategory": "Composting",
+      "brand": "Kairu Farms",
+      "image": "/uploads/compost-bin-1751140475964.ico",
       "images": [],
-      "tags": [],
-      "stock": 67,
-      "rating": 3,
-      "reviewCount": 100,
+      "tags": ["compost", "bin", "gardening"],
+      "stock": 25,
+      "rating": 4.8,
+      "reviewCount": 34,
       "isNew": false,
       "isFeatured": true,
       "isTopPick": true,
@@ -619,76 +628,104 @@
   ],
   "categories": [
     {
-      "name": "Electronics",
+      "name": "Fresh Produce",
+      "image": "https://images.unsplash.com/photo-1566385101042-1a0aa0c1268c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
       "subcategories": [
-        "Smartphones",
-        "Laptops",
-        "Audio",
-        "Gaming",
-        "Wearables",
-        "Accessories"
+        "Vegetables",
+        "Fruits",
+        "Leafy Greens",
+        "Herbs",
+        "Root Vegetables"
       ]
     },
     {
-      "name": "Fashion",
+      "name": "Dairy & Eggs",
+      "image": "https://images.unsplash.com/photo-1628088062854-d1871b2543a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
       "subcategories": [
-        "Men's Clothing",
-        "Women's Clothing",
-        "Kids' Clothing",
-        "Shoes",
-        "Accessories",
-        "Watches"
+        "Milk",
+        "Yogurt",
+        "Cheese",
+        "Eggs",
+        "Butter"
       ]
     },
     {
-      "name": "Groceries",
+      "name": "Grains & Cereals",
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
       "subcategories": [
-        "Staples",
-        "Cooking Essentials",
-        "Beverages",
-        "Snacks",
-        "Bakery",
-        "Dairy"
+        "Maize",
+        "Rice",
+        "Wheat",
+        "Flour",
+        "Oats"
       ]
     },
     {
-      "name": "Home Appliances",
+      "name": "Meat & Poultry",
+      "image": "https://images.unsplash.com/photo-1602470520998-f4a52199a3d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
       "subcategories": [
-        "TV & Video",
-        "Kitchen",
-        "Laundry",
-        "Cleaning",
-        "Lighting",
-        "Furniture"
+        "Chicken",
+        "Beef",
+        "Goat",
+        "Fish",
+        "Processed Meat"
       ]
     },
     {
-      "name": "Footwear",
+      "name": "Pantry Staples",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e8ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
       "subcategories": [
-        "Sports Shoes",
-        "Casual Shoes",
-        "Formal Shoes",
-        "Sandals",
-        "Slippers"
+        "Legumes",
+        "Sweeteners",
+        "Oils & Fats",
+        "Spices",
+        "Salt & Sugar"
       ]
     },
     {
-      "name": "Fitness",
+      "name": "Natural Products",
+      "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad4a89?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
       "subcategories": [
-        "Yoga",
-        "Gym Equipment",
-        "Sports Accessories",
-        "Fitness Trackers"
+        "Body Care",
+        "Home Cleaning",
+        "Essential Oils",
+        "Soaps"
+      ]
+    },
+
+    
+    {
+      "name": "Farm Tools",
+      "image": "https://images.unsplash.com/photo-1592982537447-6f2a6a0c7e78?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      "subcategories": [
+        "Hand Tools",
+        "Irrigation",
+        "Composting",
+        "Storage",
+        "Protective Gear"
       ]
     },
     {
-      "name": "Accessories",
+      "name": "Farm Accessories",
+      "image": "https://images.unsplash.com/photo-1595433707802-bc6e5f7da12b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
       "subcategories": [
-        "Bags",
-        "Wallets",
+        "Baskets",
         "Water Bottles",
-        "Tech Accessories"
+        "Clothing",
+        "Harvesting Equipment"
+      ]
+    },
+    {
+      "name": "Beverages",
+      "image": "https://images.unsplash.com/photo-1544787219-7f47ccb77374?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      "subcategories": [
+        "Coffee",
+        "Tea",
+        "Juices",
+        "Traditional Drinks",
+        "Water"
       ]
     }
+    
   ]
 }
