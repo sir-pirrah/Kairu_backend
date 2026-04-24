@@ -1,693 +1,127 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "Leather Jacket",
-      "description": "Premium leather jacket with classic design",
-      "price": 8000,
-      "image": "http://localhost:3000/uploads/image-1751192338148-295084960.ico",
-      "images": [
-        "/assets/products/leather-jacket.jpg"
+      "id": "2",
+      "name": "Fresh Potatoes",
+      "description": "Locally sourced fresh potatoes available in multiple package sizes for household and bulk buyers.",
+      "price": 80,
+      "priceOptions": [
+        { "label": "90kg bag", "price": 5100 },
+        { "label": "17kg bucket", "price": 1100 },
+        { "label": "10kg bucket", "price": 700 },
+        { "label": "2kg container", "price": 150 },
+        { "label": "1kg", "price": 80 },
+        { "label": "500g (nusu)", "price": 50 }
       ],
-      "category": "Fashion",
-      "subcategory": "Men's Clothing",
-      "brand": "Kairu",
-      "tags": [
-        "leather",
-        "jacket",
-        "fashion"
-      ],
-      "rating": 5,
-      "reviewCount": 120,
-      "stock": 0,
+      "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655",
+      "images": ["/assets/products/potatoes.jpg"],
+      "category": "Fresh Produce",
+      "subcategory": "Vegetables",
+      "brand": "Local Farmers",
+      "tags": ["potatoes", "vegetables", "fresh"],
+      "rating": 4.7,
+      "reviewCount": 89,
+      "stock": 500,
       "isNew": false,
-      "isFeatured": true,
+      "isFeatured": false,
       "isTopPick": true,
       "badge": "",
       "createdAt": "2024-01-01T00:00:00.000Z",
       "updatedAt": "2025-06-29T10:19:08.377Z",
-      "originalPrice": 10,
+      "originalPrice": 100,
       "isFlashSale": false,
       "flashSaleEndTime": ""
-    },
-    {
-      "id": "2",
-      "name": "Smart Watch",
-      "description": "Advanced smartwatch with health monitoring",
-      "price": "4999",
-      "originalPrice": "7999",
-      "image": "/assets/images/smartwatch.jpg",
-      "images": [
-        "/assets/images/smartwatch.jpg"
-      ],
-      "category": "Fashion",
-      "subcategory": "Watches",
-      "brand": "Kairo",
-      "tags": [
-        "smartwatch",
-        "fitness",
-        "technology"
-      ],
-      "rating": 4,
-      "reviewCount": 80,
-      "stock": 25,
-      "isNew": true,
-      "isFeatured": true,
-      "isTopPick": true,
-      "isFlashSale": true,
-      "flashSaleEndTime": "2024-12-31T23:59:59.000Z",
-      "badge": "new",
-      "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2025-06-29T09:17:56.798Z"
-    },
-    {
-      "id": "3",
-      "name": "Bluetooth Speaker",
-      "description": "Portable bluetooth speaker with amazing sound",
-      "price": "1999",
-      "originalPrice": "2999",
-      "image": "/assets/images/speaker.jpg",
-      "images": [
-        "/assets/images/speaker.jpg"
-      ],
-      "category": "Electronics",
-      "subcategory": "Audio",
-      "brand": "Kairo",
-      "tags": [
-        "speaker",
-        "bluetooth",
-        "audio"
-      ],
-      "rating": 4,
-      "reviewCount": 60,
-      "stock": 30,
-      "isNew": false,
-      "isFeatured": false,
-      "isTopPick": true,
-      "isFlashSale": true,
-      "flashSaleEndTime": "2024-12-31T23:59:59.000Z",
-      "badge": null,
-      "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "4",
-      "name": "Wireless Headphones",
-      "description": "High-quality wireless headphones with noise cancellation",
-      "price": "2999",
-      "originalPrice": "4999",
-      "image": "/assets/images/headphone.jpg",
-      "images": [],
-      "category": "Electronics",
-      "subcategory": "Audio",
-      "brand": "Kairo",
-      "tags": [
-        "headphones",
-        "wireless",
-        "audio"
-      ],
-      "rating": 5,
-      "reviewCount": 150,
-      "stock": 20,
-      "isNew": true,
-      "isFeatured": false,
-      "isTopPick": false,
-      "isFlashSale": true,
-      "flashSaleEndTime": "2024-12-31T23:59:59.000Z",
-      "badge": "new",
-      "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2025-06-28T10:23:18.564Z"
-    },
-    {
-      "id": "5",
-      "name": "Mechanical Keyboard",
-      "description": "Premium mechanical keyboard with RGB backlighting",
-      "price": "3999",
-      "originalPrice": "5999",
-      "image": "/assets/images/keyboard.jpg",
-      "images": [
-        "/assets/images/keyboard.jpg"
-      ],
-      "category": "Electronics",
-      "subcategory": "Gaming",
-      "brand": "Kairo",
-      "tags": [
-        "keyboard",
-        "mechanical",
-        "gaming"
-      ],
-      "rating": 4.5,
-      "reviewCount": 95,
-      "stock": 18,
-      "isNew": true,
-      "isFeatured": true,
-      "isTopPick": true,
-      "isFlashSale": true,
-      "flashSaleEndTime": "2025-07-02T15:11",
-      "badge": "new",
-      "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2025-06-28T19:11:49.780Z"
-    },
-    {
-      "id": "6",
-      "name": "Cotton Polo Shirt",
-      "description": "Premium cotton polo shirt with a classic fit.",
-      "price": "349",
-      "originalPrice": "400",
-      "image": "https://images.unsplash.com/photo-1578932750355-5eb30ece487a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1578932750355-5eb30ece487a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-      ],
-      "category": "Fashion",
-      "subcategory": "Men's Clothing",
-      "brand": "Kairo",
-      "tags": [
-        "polo",
-        "casual",
-        "shirt"
-      ],
-      "rating": 4.3,
-      "reviewCount": 76,
-      "stock": 40,
-      "isNew": false,
-      "isFeatured": false,
-      "badge": "sale",
-      "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "7",
-      "name": "Running Shoes",
-      "description": "Lightweight running shoes with cushioned soles.",
-      "price": "1000",
-      "originalPrice": "1099",
-      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-      ],
-      "category": "Footwear",
-      "subcategory": "Sports Shoes",
-      "brand": "Kairo",
-      "tags": [
-        "shoes",
-        "running",
-        "sports"
-      ],
-      "rating": 4.7,
-      "reviewCount": 112,
-      "stock": 35,
-      "isNew": true,
-      "isFeatured": true,
-      "badge": "new",
-      "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "8",
-      "name": "Bluetooth Speaker",
-      "description": "Portable Bluetooth speaker with 20-hour battery life.",
-      "price": "500",
-      "image": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-      ],
-      "category": "Electronics",
-      "subcategory": "Audio",
-      "brand": "Kairo",
-      "tags": [
-        "speaker",
-        "audio",
-        "portable"
-      ],
-      "rating": 4.5,
-      "reviewCount": 89,
-      "stock": 28,
-      "isNew": false,
-      "isFeatured": false,
-      "badge": null,
-      "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "9",
-      "name": "Organic Coffee Beans",
-      "description": "Premium organic coffee beans, 1kg pack.",
-      "price": "250",
-      "image": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-      ],
-      "category": "Groceries",
-      "subcategory": "Beverages",
-      "brand": "Kairo",
-      "tags": [
-        "coffee",
-        "organic",
-        "beverage"
-      ],
-      "rating": 4.8,
-      "reviewCount": 203,
-      "stock": 100,
-      "isNew": false,
-      "isFeatured": true,
-      "badge": null,
-      "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "10",
-      "name": "Smart LED TV",
-      "description": "55-inch 4K Smart LED TV with HDR.",
-      "price": "54999",
-      "originalPrice": "64999",
-      "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1593784991095-a205069470b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-      ],
-      "category": "Home Appliances",
-      "subcategory": "TV & Video",
-      "brand": "Kairo",
-      "tags": [
-        "tv",
-        "smart",
-        "entertainment"
-      ],
-      "rating": 4.9,
-      "reviewCount": 67,
-      "stock": 12,
-      "isNew": true,
-      "isFeatured": true,
-      "badge": "new",
-      "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "11",
-      "name": "Yoga Mat",
-      "description": "Non-slip yoga mat with carrying strap.",
-      "price": "1999",
-      "image": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-      ],
-      "category": "Fitness",
-      "brand": "Kairo",
-      "tags": [
-        "yoga",
-        "fitness",
-        "exercise"
-      ],
-      "rating": 4.6,
-      "reviewCount": 145,
-      "stock": 50,
-      "isNew": false,
-      "isFeatured": false,
-      "badge": null,
-      "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "12",
-      "name": "Wireless Earbuds",
-      "description": "True wireless earbuds with charging case.",
-      "price": "7999",
-      "originalPrice": "9999",
-      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-      ],
-      "category": "Electronics",
-      "brand": "Kairo",
-      "tags": [
-        "earbuds",
-        "wireless",
-        "audio"
-      ],
-      "rating": 4.4,
-      "reviewCount": 178,
-      "stock": 42,
-      "isNew": true,
-      "isFeatured": true,
-      "badge": "new",
-      "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "13",
-      "name": "Stainless Steel Water Bottle",
-      "description": "Insulated stainless steel water bottle, 1L capacity.",
-      "price": "1499",
-      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1602143407151-7111542de6e8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-      ],
-      "category": "Accessories",
-      "brand": "Kairo",
-      "tags": [
-        "bottle",
-        "water",
-        "eco-friendly"
-      ],
-      "rating": 4.7,
-      "reviewCount": 231,
-      "stock": 75,
-      "isNew": false,
-      "isFeatured": false,
-      "badge": null,
-      "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "14",
-      "name": "Laptop Backpack",
-      "description": "Durable laptop backpack with USB charging port.",
-      "price": "3999",
-      "originalPrice": "4999",
-      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-      ],
-      "category": "Accessories",
-      "brand": "Kairo",
-      "tags": [
-        "backpack",
-        "laptop",
-        "travel"
-      ],
-      "rating": 4.6,
-      "reviewCount": 94,
-      "stock": 38,
-      "isNew": true,
-      "isFeatured": true,
-      "badge": "new",
-      "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "15",
-      "name": "Air Fryer",
-      "description": "Digital air fryer with multiple cooking functions.",
-      "price": "8999",
-      "image": "https://images.unsplash.com/photo-1615873968403-89e068629265?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1615873968403-89e068629265?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-      ],
-      "category": "Home Appliances",
-      "brand": "Kairo",
-      "tags": [
-        "air fryer",
-        "kitchen",
-        "cooking"
-      ],
-      "rating": 4.8,
-      "reviewCount": 127,
-      "stock": 22,
-      "isNew": true,
-      "isFeatured": true,
-      "badge": "new",
-      "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "16",
-      "name": "Men's Dress Shirt",
-      "description": "Formal dress shirt with slim fit.",
-      "price": "4499",
-      "originalPrice": "5499",
-      "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-      ],
-      "category": "Clothing",
-      "brand": "Kairo",
-      "tags": [
-        "shirt",
-        "formal",
-        "dress"
-      ],
-      "rating": 4.3,
-      "reviewCount": 68,
-      "stock": 45,
-      "isNew": false,
-      "isFeatured": false,
-      "badge": "sale",
-      "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "17",
-      "name": "Gaming Mouse",
-      "description": "High-precision gaming mouse with RGB lighting.",
-      "price": 5000,
-      "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1527814050087-3793815479db?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-      ],
-      "category": "Electronics",
-      "brand": "Kairo",
-      "tags": [
-        "mouse",
-        "gaming",
-        "accessories"
-      ],
-      "rating": 4.7,
-      "reviewCount": 112,
-      "stock": 30,
-      "isNew": true,
-      "isFeatured": true,
-      "badge": "new",
-      "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2025-06-28T10:33:38.901Z",
-      "originalPrice": "",
-      "subcategory": "Accessories",
-      "isTopPick": false,
-      "isFlashSale": false
-    },
-    {
-      "id": "18",
-      "name": "Organic Honey",
-      "description": "Pure organic honey, 500g jar.",
-      "price": "1299",
-      "image": "https://images.unsplash.com/photo-1551504735-1a4ec50f7c1a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1551504735-1a4ec50f7c1a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-      ],
-      "category": "Groceries",
-      "brand": "Kairo",
-      "tags": [
-        "honey",
-        "organic",
-        "sweetener"
-      ],
-      "rating": 4.9,
-      "reviewCount": 187,
-      "stock": 60,
-      "isNew": false,
-      "isFeatured": false,
-      "badge": null,
-      "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "19",
-      "name": "Blender",
-      "description": "High-speed blender with multiple attachments.",
-      "price": "6999",
-      "originalPrice": "8999",
-      "image": "https://images.unsplash.com/photo-1560343090-f0409e92791a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1560343090-f0409e92791a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-      ],
-      "category": "Home Appliances",
-      "brand": "Kairo",
-      "tags": [
-        "blender",
-        "kitchen",
-        "appliance"
-      ],
-      "rating": 4.5,
-      "reviewCount": 93,
-      "stock": 18,
-      "isNew": false,
-      "isFeatured": true,
-      "badge": "sale",
-      "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z"
-    },
-    {
-      "id": "20",
-      "name": "Fitness Tracker",
-      "description": "Waterproof fitness tracker with heart rate monito",
-      "price": "3499",
-      "image": "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      "images": [
-        "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-      ],
-      "category": "Electronics",
-      "brand": "Kairo",
-      "tags": [
-        "fitness",
-        "tracker",
-        "wearable"
-      ],
-      "rating": 4.4,
-      "reviewCount": 156,
-      "stock": 27,
-      "isNew": true,
-      "isFeatured": true,
-      "badge": "new",
-      "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2025-06-28T13:40:45.882Z",
-      "originalPrice": "",
-      "subcategory": "",
-      "isTopPick": false,
-      "isFlashSale": false
-    },
-    {
-      "name": "Laptop",
-      "description": "HP elite book",
-      "price": 20000,
-      "originalPrice": 15000,
-      "category": "Electronics",
-      "subcategory": "Laptops",
-      "brand": "Kairo",
-      "image": "https://images.unsplash.com/photo-1511385348-a52b4a160dc2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D",
-      "images": [],
-      "tags": [
-        "New"
-      ],
-      "stock": 10,
-      "rating": 4.6,
-      "reviewCount": 19,
-      "isNew": false,
-      "isFeatured": true,
-      "isTopPick": true,
-      "isFlashSale": false,
-      "badge": "new",
-      "id": "21",
-      "createdAt": "2025-06-28T10:38:47.962Z",
-      "updatedAt": "2025-06-28T10:48:06.060Z"
-    },
-    {
-      "name": "Leather nott",
-      "description": "sdfdf fdgdf",
-      "price": 1234,
-      "originalPrice": "",
-      "category": "Electronics",
-      "subcategory": "Laptops",
-      "brand": "Kairo",
-      "image": "",
-      "images": [],
-      "tags": [],
-      "stock": 20,
-      "rating": 3,
-      "reviewCount": 100,
-      "isNew": true,
-      "isFeatured": false,
-      "isTopPick": true,
-      "isFlashSale": false,
-      "flashSaleEndTime": "",
-      "badge": "new",
-      "id": "22",
-      "createdAt": "2025-06-28T19:38:08.055Z",
-      "updatedAt": "2025-06-28T19:38:08.055Z"
-    },
-    {
-      "name": "Leather Jacket not",
-      "description": "hfvhj hjhkj",
-      "price": 1234,
-      "originalPrice": "",
-      "category": "Electronics",
-      "subcategory": "Laptops",
-      "brand": "Kairo",
-      "image": "/uploads/image-1751140475964-194536493.ico",
-      "images": [],
-      "tags": [],
-      "stock": 67,
-      "rating": 3,
-      "reviewCount": 100,
-      "isNew": false,
-      "isFeatured": true,
-      "isTopPick": true,
-      "isFlashSale": false,
-      "flashSaleEndTime": "",
-      "badge": "sale",
-      "id": "23",
-      "createdAt": "2025-06-28T19:55:01.872Z",
-      "updatedAt": "2025-06-28T19:55:01.872Z"
     }
+
+    
   ],
   "categories": [
     {
-      "name": "Electronics",
+      "name": "Fresh Produce",
       "subcategories": [
-        "Smartphones",
-        "Laptops",
-        "Audio",
-        "Gaming",
-        "Wearables",
-        "Accessories"
+        "Vegetables",
+        "Fruits",
+        "Leafy Greens",
+        "Herbs",
+        "Root Vegetables"
       ]
     },
     {
-      "name": "Fashion",
+      "name": "Dairy & Eggs",
       "subcategories": [
-        "Men's Clothing",
-        "Women's Clothing",
-        "Kids' Clothing",
-        "Shoes",
-        "Accessories",
-        "Watches"
+        "Milk",
+        "Yogurt",
+        "Cheese",
+        "Eggs",
+        "Butter"
       ]
     },
     {
-      "name": "Groceries",
+      "name": "Grains & Cereals",
       "subcategories": [
-        "Staples",
-        "Cooking Essentials",
-        "Beverages",
-        "Snacks",
-        "Bakery",
-        "Dairy"
+        "Maize",
+        "Rice",
+        "Wheat",
+        "Flour",
+        "Oats"
       ]
     },
     {
-      "name": "Home Appliances",
+      "name": "Meat & Poultry",
       "subcategories": [
-        "TV & Video",
-        "Kitchen",
-        "Laundry",
-        "Cleaning",
-        "Lighting",
-        "Furniture"
+        "Chicken",
+        "Beef",
+        "Goat",
+        "Fish",
+        "Processed Meat"
       ]
     },
     {
-      "name": "Footwear",
+      "name": "Pantry Staples",
       "subcategories": [
-        "Sports Shoes",
-        "Casual Shoes",
-        "Formal Shoes",
-        "Sandals",
-        "Slippers"
+        "Legumes",
+        "Sweeteners",
+        "Oils & Fats",
+        "Spices",
+        "Salt & Sugar"
       ]
     },
     {
-      "name": "Fitness",
+      "name": "Beverages",
       "subcategories": [
-        "Yoga",
-        "Gym Equipment",
-        "Sports Accessories",
-        "Fitness Trackers"
+        "Coffee",
+        "Tea",
+        "Juices",
+        "Traditional Drinks",
+        "Water"
       ]
     },
     {
-      "name": "Accessories",
+      "name": "Farm Tools",
       "subcategories": [
-        "Bags",
-        "Wallets",
+        "Hand Tools",
+        "Irrigation",
+        "Composting",
+        "Storage",
+        "Protective Gear"
+      ]
+    },
+    {
+      "name": "Farm Accessories",
+      "subcategories": [
+        "Baskets",
         "Water Bottles",
-        "Tech Accessories"
+        "Clothing",
+        "Harvesting Equipment"
+      ]
+    },
+    {
+      "name": "Natural Products",
+      "subcategories": [
+        "Body Care",
+        "Home Cleaning",
+        "Essential Oils",
+        "Soaps"
       ]
     }
   ]
