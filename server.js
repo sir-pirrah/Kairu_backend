@@ -18,8 +18,8 @@ const corsOptions = {
     'http://localhost:35935', 
     'http://127.0.0.1:4200', 
     'http://127.0.0.1:35935',
-    // Add your Vercel frontend URL here
-    'https://kairo-ecommerce.vercel.app', // Replace with your actual Vercel URL
+    'https://kairu-agric.vercel.app',    
+    'https://kk20k.vercel.app', 
     'https://*.vercel.app' // Allow all Vercel subdomains
   ],
   credentials: true,
